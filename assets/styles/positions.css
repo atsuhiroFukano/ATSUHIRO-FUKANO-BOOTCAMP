@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* reset css */
+}
+
+.navigation{
+    background-color:darkseagreen;
+    padding: 20px 0;
+    width: 100%;
+    /* fixed */
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    
+}
+
+.navigation h1{
+    /* relative */
+    position: relative;
+    left: 10%;
+    width:90%;
+}
+
+.announcement{
+    height: 400px;
+    background-color: darkgoldenrod;
+    /* (parent) */
+    position: relative;
+    z-index: 1;
+
+    margin-top: 68px;
+}
+
+.announcement h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 3.75em;
+    font-family: Impact;
+    letter-spacing: 3px;
+
+    position: absolute;
+    top: 40%;
+    left: 10%;
+
+
+
+}
+
+
+.main{
+    width: 80%;
+    /* margin-right: ;
+    margin-left: ; */
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 0;
+}
+
+.main p{
+    font-size: 1.5em;
+    margin-bottom: 25px;
+
+    /* em is relative parent 16px
+    font size 1em= 16px */
+}
+
+footer{
+    background-color: #333;
+    padding: 20px
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+}

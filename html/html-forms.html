@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form action="" method="">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first_name" id="first-name">
+
+        <br>
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last_name" id="last-name">
+
+        <br>
+
+        <label for="user-password">User Password</label>
+        <input type="password" name="user_password" id="user-password">
+
+        <br>
+
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+
+        <br>
+
+        <label for="personal-email">Personal Email</label>
+        <input type="email" name="personal_email" id="personal-email">
+
+
+        <br>
+
+        <label for="work-email">Work Email</label>
+        <input type="email" name="work_email" id="work-email">
+
+        <br>
+
+        <label for="comments">Comments</label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <!-- 
+            CHECKS and RRADIOS:
+            same name
+            different id and value
+         -->
+        <p>Size of shirt</p>
+        <input type="radio" name="shirt_size" id="sm" value="small">
+        <label for="sm">Small</label>
+
+        <input type="radio" name="shirt_size" id="md" value="medium">
+        <label for="md">Medium</label>
+
+        <input type="radio" name="shirt_size" id="lg" value="large">
+        <label for="lg">Large</label>
+
+        <br>
+        
+         <p>hobbies</p>
+
+         <input type="checkbox" name="hobbies[]" id="sing" value="sing">
+         <label for="sing">Singing</label>
+
+         <input type="checkbox" name="hobbies[]" id="dance" value="dance">
+         <label for="dance">Dancing</label>
+
+         <input type="checkbox" name="hobbies[]" id="paint" value="paint">
+         <label for="paint">Painting</label>
+
+        <br>
+
+        <input type="checkbox" name="terms-cond" id="terms-cond" value="yes">
+        <label for="terms-cond">I have read and agreed to the terms and conditions.</label>
+
+        <br>
+
+         <label for="major">Major</label>
+         <select name="major" id="major">
+             <option value=""hidden>Select your Major</option>
+             <option value="Political Science">Political Science</option>
+             <option value="it">Information Technology</option>
+         </select>
+
+         <br>
+
+         <label for="major-multiple">Major(Multiple)</label>
+         <select name="major_multi" id="major-multi" multiple>
+
+            <option value="Political Science">Political Science</option>
+            <option value="it">Information Technology</option>
+            <option value="fin">Finance</option>
+            <option value="accty">Accountancy</option>
+
+         </select>
+
+         <br>
+
+         <label for="profile-pic">Profile Picture</label>
+         <input type="file" name="profile_pic" id="profile-pic" accept="image/*" multiple>
+         
+
+         <label for="file">Choose a file</label>
+         <br>
+
+         <input type="file" name="file" id="file" multiple>
+         <br>
+
+         
+         <input type="submit" value="Continue" name="submit" id="submit"><br>
+         <input type="image" src="assets/images/button.png" alt="submit-photo" name="submit" id="submit"><br>
+        <button>I am a button</button>
+        <br>
+
+        <button type="submit">REGISTER</button>
+
+
+        <!--
+            :(colon) = type
+
+            id --- lowercase, kebab case (my-name-is-john)
+            name --- lowercase, underscore case, snake case(my_name_is_john)
+            input:type#first-name
+            in1form only 1 submit
+        -->
+    </form>
+
+</body>
+</html>

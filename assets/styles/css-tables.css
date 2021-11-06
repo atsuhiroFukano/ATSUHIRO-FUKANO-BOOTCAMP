@@ -1,0 +1,21 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+    width: 100%;
+
+}
+
+th{
+    background-color: aqua;
+}
+
+tr:hover{
+    background-color: yellow;
+    font-size: large;
+    font-weight: bold;
+}

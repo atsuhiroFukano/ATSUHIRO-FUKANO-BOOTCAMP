@@ -1,0 +1,66 @@
+*{
+    color:blue;
+}
+
+
+h1{
+    font-weight: bolder;
+    color: #e633e0;
+    text-transform: capitalize;
+    opacity: 1;
+    font-style: italic;
+    /* FONT-STULE;NORMAL */
+    /* OBLIQUE */
+    text-align: center;
+    text-shadow: 20px 20px 10px green;
+}
+.chapter{
+    color: rgb(20,241,194);
+}
+
+h2{
+    color: rgba(184,30,32,1);
+    letter-spacing: 30px;
+}
+p{
+    /* font-family: 'Courier New', Courier, monospace; */
+    
+}
+h3{
+    font-weight:900;
+    word-spacing:50px;
+}
+
+p{
+    /* font-weight: 900; */
+    font-weight: lighter;
+}
+
+.chapter-1{
+    text-transform: uppercase;
+    /* text-transform:lowercase */
+    /* text-transform:capitalize */
+    text-indent: 50px;
+}
+
+.chapter-2{
+    text-indent: 5%;
+}
+
+.cahpter-3{
+    text-indent: 5em;
+}
+
+.chapter{
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-decoration: underline;
+    text-align: right; 
+
+}
+
+a{
+    text-decoration:none;
+    color: red;
+}
+

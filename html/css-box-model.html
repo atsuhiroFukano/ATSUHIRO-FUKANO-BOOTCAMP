@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+</head>
+
+    <style>
+        .box1{
+            background-color: rgb(236, 255, 127);
+            width: 300px;
+            height: 500px;
+            /* margin: 50px;  */
+            margin-left: auto;
+            margin-right: auto;
+            /* outside the border */
+            padding: 50px;
+            /* inside the border */
+            border: 20px double green;
+        }
+
+        .box2{
+            background-color: rgb(235, 194, 194);
+            /* margin: 50px 100px; */
+            /* top and bottom / right and left  */
+            /* margin: 50px 100px 100px; */
+            /* top /right and left/ bottom */
+            /* margin: 50px 100px 100px 20px; */
+            /* clockwise from top */
+
+            margin-top: 100px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+
+            /* padding: 50px 100px 50px 20px; */
+            padding-top: 0px;
+            padding-right: 100px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            /* border: 10px outset black; */
+            border-top: 2px solid black;
+            border-right: 5px dotted black;
+            border-bottom: 10px dashed red;
+            border-left: 5px dotted black;
+
+            /* border: width(thickness) style color
+            style of border: solid dotted dashed double groove ridge inset outset */
+        }
+
+        .box3{
+            background-color: rgb(240, 240, 168);
+            border: 2px solid black;
+            padding: 5px;
+            margin: 100px;
+            height:150px;
+            /* overflow: hidden; */
+            overflow: scroll;
+            box-shadow:10px 10px 5px 5px red;
+            /* h-offset v-offset blur spread */
+        }
+    </style>
+
+<body>
+
+    <h2>Demonstraiting the Box Model</h2>
+
+    <div class="box1">
+        <h2>Paragraph 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor ducimus veritatis sit quaerat odit incidunt omnis fuga repellendus ullam eum vero beatae, eveniet quisquam cumque aspernatur dolorum recusandae iure consequuntur cum totam nobis. Quasi, vel? Nobis totam unde magni porro impedit accusantium nostrum esse. Quasi, odio illum aspernatur pariatur ad provident aliquam numquam tempore impedit. Repellendus veniam cum inventore commodi fugit architecto laboriosam sapiente laborum corporis maxime, eos quia? Consequatur esse pariatur veniam porro, sequi temporibus adipisci quisquam asperiores eveniet iure. Facilis soluta earum quasi iusto esse totam qui quia, nam necessitatibus distinctio sequi quibusdam id! Labore, dignissimos libero.</p>
+    </div>
+
+    <div class="box2">
+        <h2>Paragraph 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor ducimus veritatis sit quaerat odit incidunt omnis fuga repellendus ullam eum vero beatae, eveniet quisquam cumque aspernatur dolorum recusandae iure consequuntur cum totam nobis. Quasi, vel? Nobis totam unde magni porro impedit accusantium nostrum esse. Quasi, odio illum aspernatur pariatur ad provident aliquam numquam tempore impedit. Repellendus veniam cum inventore commodi fugit architecto laboriosam sapiente laborum corporis maxime, eos quia? Consequatur esse pariatur veniam porro, sequi temporibus adipisci quisquam asperiores eveniet iure. Facilis soluta earum quasi iusto esse totam qui quia, nam necessitatibus distinctio sequi quibusdam id! Labore, dignissimos libero.</p>
+    </div>
+
+    <div class="box3">
+        <h2>Paragraph 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor ducimus veritatis sit quaerat odit incidunt omnis fuga repellendus ullam eum vero beatae, eveniet quisquam cumque aspernatur dolorum recusandae iure consequuntur cum totam nobis. Quasi, vel? Nobis totam unde magni porro impedit accusantium nostrum esse. Quasi, odio illum aspernatur pariatur ad provident aliquam numquam tempore impedit. Repellendus veniam cum inventore commodi fugit architecto laboriosam sapiente laborum corporis maxime, eos quia? Consequatur esse pariatur veniam porro, sequi temporibus adipisci quisquam asperiores eveniet iure. Facilis soluta earum quasi iusto esse totam qui quia, nam necessitatibus distinctio sequi quibusdam id! Labore, dignissimos libero.Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor ducimus veritatis sit quaerat odit incidunt omnis fuga repellendus ullam eum vero beatae, eveniet quisquam cumque aspernatur dolorum recusandae iure consequuntur cum totam nobis. Quasi, vel? Nobis totam unde magni porro impedit accusantium nostrum esse. Quasi, odio illum aspernatur pariatur ad provident aliquam numquam tempore impedit. Repellendus veniam cum inventore commodi fugit architecto laboriosam sapiente laborum corporis maxime, eos quia? Consequatur esse pariatur veniam porro, sequi temporibus adipisci quisquam asperiores eveniet iure. Facilis soluta earum quasi iusto esse totam qui quia, nam necessitatibus distinctio sequi quibusdam id! Labore, dignissimos libero.Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolor ducimus veritatis sit quaerat odit incidunt omnis fuga repellendus ullam eum vero beatae, eveniet quisquam cumque aspernatur dolorum recusandae iure consequuntur cum totam nobis. Quasi, vel? Nobis totam unde magni porro impedit accusantium nostrum esse. Quasi, odio illum aspernatur pariatur ad provident aliquam numquam tempore impedit. Repellendus veniam cum inventore commodi fugit architecto laboriosam sapiente laborum corporis maxime, eos quia? Consequatur esse pariatur veniam porro, sequi temporibus adipisci quisquam asperiores eveniet iure. Facilis soluta earum quasi iusto esse totam qui quia, nam necessitatibus distinctio sequi quibusdam id! Labore, dignissimos libero.</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+.container{
+    height: 300px;
+    width: 585px;
+    background-color: aquamarine;
+    text-align: center;
+    background-image: url("../images/ocean.jpg");
+    background-size: cover ;
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body{
+
+    background:url("../images/desert.jpg") no-repeat scroll center center;
+    /* short-hand */
+    background-size: cover;
+}
+/* background-size cover contain  horizontal vertical*/

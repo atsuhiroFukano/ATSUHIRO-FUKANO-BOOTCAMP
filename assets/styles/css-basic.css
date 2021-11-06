@@ -1,0 +1,22 @@
+*{
+    color:blue;
+}
+
+p{
+    text-align: center;
+}
+.paragraph-1{
+    color: red;
+}
+
+#paragraph-sample{
+    color: green;
+}
+
+h1{
+    color: sienna;
+}
+
+ .header h1{
+    color: darkcyan;
+}

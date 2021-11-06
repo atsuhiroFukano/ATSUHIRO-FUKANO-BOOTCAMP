@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        /*example of internal css */ 
+
+        
+
+        h1{
+            color:aquamarine;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Details</h1>
+    <!-- example of inline css -->
+    <p style="color:blueviolet">Please complete the forms:</p>
+
+    <form action="#">
+        <label for="full-name">Full Name</label>
+        <input type="text" name="full_name" id="full-name" placeholder="John Doe" required>
+        <br>
+        <label for="birthday">Enter your Birthday</label>
+        <input type="date" name="birthday" id="birthday" min="1991-12-31" max="2021-12-31" placeholder="2021-10-17" required> 
+
+        <!-- placeholder doesn't work for date -->
+
+        <br>
+        <label for="user-email">Enter your Email</label>
+        <input type="email" name="email" id="user-email" placeholder="john_doe@email.com" required> 
+        <br>
+        <label for="user-password">Password</label>
+        <input type="password" name="password" id="user-password" required>
+        <br>
+        <label for="input-number">Favorite Number</label>
+        <input type="number" name="number" id="input-number" min="5" max="15" required>
+        <br>
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+</html>

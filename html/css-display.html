@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        .click-me{
+            text-decoration: none;
+            /* color: white; */
+            font-size: 1.2em;
+            background-color: mediumspringgreen ;
+            /* <a> is inline, padding is not respected. */
+            padding: 30px;
+            /* inline elements do not allow width and height */
+            width: 400px;
+            /* It's still IN THE LINE but the padding is respected and it allows width and height (like block) */
+            /* a(inline) change to block */
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lokking for Alaska</h1>
+    
+    <!-- inline -->
+    <h1 style="display: inline">Lokking for Alaska</h1>
+
+    <!-- block -->
+    <a href="#">Read more...</a>
+    <a href="#" style="display: block;">Read more...</a>
+    
+    <!-- none -->
+    <span style="display: none;">You cannot see me</span>
+
+    <!-- inline: no width and height width auto; doesn't respect paddings and margins -->
+    <!-- block: it has its own line width 100%; width and height; respects paddins and margins -->
+    <!-- inline-block: width auto; width and height; respects paddings and margins; -->
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis blanditiis mollitia odio perferendis commodi at, dolorem vel expedita obcaecati numquam!</p>
+     <a href="#" class="click-me">Click me</a>
+
+</body>
+</html>
